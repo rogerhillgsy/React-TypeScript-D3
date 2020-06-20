@@ -1,4 +1,11 @@
-export default {
+import { d3Types } from "./types";
+interface AInterface {
+  nodes: d3Types.d3Node[];
+  links: d3Types.d3Link[];
+}
+
+// export default {
+var a: AInterface = {
   "nodes": [
     { "id": "Myriel", "group": 1 },
     { "id": "Napoleon", "group": 1 },
@@ -335,3 +342,5 @@ export default {
     { "source": "Mme.Hucheloup", "target": "Enjolras", "value": 1 }
   ]
 };
+
+export default a;
