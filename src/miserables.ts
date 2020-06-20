@@ -1,11 +1,10 @@
 import { d3Types } from "./types";
-interface AInterface {
+interface MiserablesInterface {
   nodes: d3Types.d3Node[];
   links: d3Types.d3Link[];
 }
 
-// export default {
-var a: AInterface = {
+var miserables: MiserablesInterface = {
   "nodes": [
     { "id": "Myriel", "group": 1 },
     { "id": "Napoleon", "group": 1 },
@@ -343,4 +342,4 @@ var a: AInterface = {
   ]
 };
 
-export default a;
+export default miserables;
